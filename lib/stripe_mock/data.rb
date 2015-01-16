@@ -8,13 +8,17 @@ module StripeMock
         statement_descriptor: nil,
         display_name: nil,
         details_submitted: false,
-        charge_enabled: false,
-        transfer_enabled: false,
+        charges_enabled: false,
+        transfers_enabled: false,
         currencies_supported: [
           'usd'
         ],
         default_currency: 'usd',
         country: 'US',
+        timezone: "Etc/UTC",
+        default_currency: 'usd',
+        country: 'US',
+        business_name: nil, 
         object: 'account'
       }
     end
